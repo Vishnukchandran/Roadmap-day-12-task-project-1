@@ -1,0 +1,48 @@
+ul {
+  list-style-type: none;
+}
+
+#list-one li::before {
+  content: "";
+  background-image: url("./icon_one/favicon.ico");
+  width: 7px;
+  height: 7px;
+  background-size: contain;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+#list-two li::before {
+  content: "";
+  background-image: url("./icon_two/favicon.ico");
+  width: 7px;
+  height: 7px;
+  background-size: contain;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.list-heading {
+  background-color: rgb(247, 186, 36);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  font-weight: 350;
+  padding: 1.5rem 1rem;
+}
+
+a {
+  color: inherit;
+}
+
+.sidebar {
+  background-color: #eeeeee;
+}
+
+.list-group-item {
+  background-color: #eeeeee;
+  border: 0 !important;
+  border-bottom: 1px solid #9e9e9e !important;
+}
+
